@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">My Health App</string>
+    <string name="txt1">Input your information to customize\n your hydration plan</string>
+    <string name="txt2">Gender</string>
+    <string name="gender">gender</string>
+    <string name="btn1">MALE</string>
+    <string name="btn2">FEMALE</string>
+    <string name="txt3">Weight(kg)</string>
+    <string name="img1">weight</string>
+    <string name="txt4">Wake up and Sleep time</string>
+    <string name="img2">alarm</string>
+    <string name="img3">gender</string>
+    <string name="btn3">APPLY</string>
+    <string name="txt5">:</string>
+    <string name="time1">22:00</string>
+    <string name="time2">06:00</string>
+    <string name="no1">50</string>
+    <string name="txt6">Drink Water Reminder</string>
+    <string name="view">view</string>
+    <string name="view2">0/1650ml</string>
+    <string name="txt7">Today</string>
+    <string name="img4">alarm</string>
+    <string name="img5">plus</string>
+    <string name="btn6">recycle</string>
+    <string name="txt8">Switch cup</string>
+    <string name="txt9">100ml</string>
+    <string name="txt10">300ml</string>
+    <string name="txt11">400ml</string>
+    <string name="txt12">Customize</string>
+    <string name="btn7">cup</string>
+    <string name="btn8">glass</string>
+    <string name="btn9">lgbottle</string>
+    <string name="btn10">smbottle</string>
+    <string name="txt13">Setting</string>
+    <string name="btn12">back</string>
+    <string name="txt14">Intake goal</string>
+    <string name="txt15">hint</string>
+
+</resources>

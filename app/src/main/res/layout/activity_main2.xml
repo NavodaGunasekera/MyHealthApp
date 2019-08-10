@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <ListView
+        android:id="@+id/view"
+        style="@style/Widget.AppCompat.Light.ListView.DropDown"
+        android:layout_width="36dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="12dp"
+        android:background="#F6F8F7"
+        android:cacheColorHint="#03A9F4"
+        android:scrollbars="vertical"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/view3"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="1dp"
+        android:text="@string/txt6"
+        android:textColor="#00BCD4"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton2"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+        app:layout_constraintStart_toEndOf="@+id/view"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <view
+        android:id="@+id/view3"
+        class="androidx.appcompat.widget.AppCompatEditText"
+        id="@+id/view2"
+        android:layout_width="351dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="33dp"
+        android:text="@string/view2"
+        android:textAlignment="center"
+        android:textColor="#131314"
+        android:textSize="20sp"
+        app:backgroundTint="#3F51B5"
+        app:layout_constraintBottom_toTopOf="@+id/calendarView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="43dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginBottom="2dp"
+        android:background="#005C0202"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="62dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginBottom="2dp"
+        android:text="@string/txt7"
+        android:textColor="#00BCD4"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintEnd_toStartOf="@+id/calendarView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="58dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="2dp"
+        android:contentDescription="@string/img2"
+        app:layout_constraintBottom_toTopOf="@+id/view3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/alarm" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="382dp"
+        android:layout_height="336dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="5dp"
+        app:cardBackgroundColor="#F1EDED"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="87dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="31dp"
+        android:contentDescription="@string/img5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        app:srcCompat="@drawable/plus" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="31dp"
+        android:contentDescription="@string/btn6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton5"
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        app:srcCompat="@drawable/recycle" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="407dp"
+        android:layout_height="663dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="213dp"
+        android:layout_marginBottom="588dp"
+        android:text="@string/txt13"
+        android:textColor="#1C1CA3"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="590dp"
+        android:contentDescription="@string/btn12"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/homeAsUpIndicator" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="185dp"
+        android:layout_marginBottom="17dp"
+        android:text="@string/txt4"
+        android:textColor="#1C1CA3"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="114dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="441dp"
+        android:ems="10"
+        android:hint="@string/time2"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="38dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="454dp"
+        android:text="@string/txt5"
+        android:textColor="#1C1CA3"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/editText6"
+        app:layout_constraintStart_toEndOf="@+id/editText5"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="114dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="438dp"
+        android:ems="10"
+        android:hint="@string/time1"
+        android:inputType="time"
+        android:textColor="#1C1CA3"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView16"
+        app:layout_constraintTop_toBottomOf="@+id/textView15"
+        app:layout_constraintVertical_bias="1.0"
+        android:importantForAutofill="no" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
